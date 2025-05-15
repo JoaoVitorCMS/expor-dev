@@ -20,6 +20,7 @@ export default function RootLayout() {
     <Header image={require("../assets/images/react-logo.png")}></Header>
       <Stack>
         <Stack.Screen name="index" options={{headerShown:false}}/>
+        <Stack.Screen name="register" options={{ headerShown: false}}/>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
